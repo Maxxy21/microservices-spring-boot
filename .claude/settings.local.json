@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./mvnw spring-boot:run:*)",
+      "Bash(netstat:*)",
+      "Bash(./mvnw dependency:tree:*)",
+      "Bash(./mvnw test-compile:*)",
+      "Bash(curl:*)",
+      "Bash(./mvnw test:*)"
+    ]
+  }
+}
